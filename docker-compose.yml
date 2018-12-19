@@ -1,0 +1,18 @@
+version: "2"
+services:
+    nginx:
+        image: nutsllc/toybox-nginx:1.15.7-alpine
+        container_name: 'nginx'
+        ports:
+            - 1313:80
+        environment:
+            - DOCUMENT_ROOT=/usr/share/nginx/html/public
+        volumes_from:
+            - application-data
+
+    application-data:
+        container_name: 'data-application'
+        image: busybox
+        volumes:
+            - "./:/usr/share/nginx/html"
+

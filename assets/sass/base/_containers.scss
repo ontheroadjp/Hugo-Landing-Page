@@ -1,0 +1,58 @@
+.container{
+	width: $containerWidth;
+	max-width: $containerMax;
+	margin: 0 auto;
+	position: relative;
+}
+
+.row{
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+
+.half{
+	width: 50%;
+	overflow: auto;
+    float:left;
+}
+
+.text-container{
+	max-width: $text-container;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+
+	&--center{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	a {
+		display: block;
+
+		@include desktop {
+			display: inline-block;
+            color: $accent;
+			opacity: 0.85;
+
+			&:hover {
+				opacity: 1;
+				color: $accent;
+			}
+
+			&:after {
+				display: block;
+				content: "";
+				border-bottom: 1px solid $accent;
+				transform: scaleX(0);
+				transition: transform 250ms ease-in-out;
+			}
+
+			&:hover:after {
+				transform: scaleX(1);
+			}
+		}
+	}
+}

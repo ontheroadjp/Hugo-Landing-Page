@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ partial "hero_header.html" . }}
+
+<!-- Page content -->
+<div class="page">
+<div class="container">
+<div class="page__inner">
+
+    {{ if .Params.toc }}
+    <div class="page__menu">
+        <ul class="vMenu" style="margin-left: -60px;">
+            {{ .TableOfContents }}
+        </ul>
+    </div>
+    {{ end }}
+
+    <div class="page__main">
+        <div class="text-container">{{ .Content }}</div>
+    </div>
+
+</div>
+</div>
+</div>
+
+{{ end }}
