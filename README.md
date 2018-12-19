@@ -32,4 +32,4 @@ The best way to learn something is to play with it.
 
 ## Screenshots
 
-![screenshot](https://github.com/ontheroadjp/Hugo-Landing-Page/row/images/images/home01.png "screenshot")
+![screenshot](https://github.com/ontheroadjp/Hugo-Landing-Page/raw/images/images/home01.png "screenshot")
