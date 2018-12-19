@@ -41,4 +41,14 @@ The best way to learn something is to play with it.
 
 ## Screenshots
 
-![screenshot](https://github.com/ontheroadjp/Hugo-Landing-Page/raw/images/images/home01.png "screenshot")
+### Home page
+
+![screenshot](https://raw.githubusercontent.com/ontheroadjp/Hugo-Landing-Page/images/images/home02.png "screenshot")
+
+### single page
+
+![screenshot](https://raw.githubusercontent.com/ontheroadjp/Hugo-Landing-Page/images/images/single02.png "screenshot")
+
+### single page (with table of contents)
+
+![screenshot](https://raw.githubusercontent.com/ontheroadjp/Hugo-Landing-Page/images/images/single.png "screenshot")
