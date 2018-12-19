@@ -1,5 +1,10 @@
 # Hugo Landing Page
 
+## Overview
+
+This is NOT the only Hugo theme. This repository has everything you need to publish a web site by Hugo.
+
+So by simply cloning this repository and running the ``hugo`` command you can generate the all materials into ``/public`` direcrtory you need to publish the web site.
 
 ## Getting Started
 
@@ -26,10 +31,24 @@ docker-compose up -d
 
 access ``http://localhost:1313`` from your web browser.
 
+When publishing web site, upload all files and directoris in ``/public`` directory.
+
+
+
 ### step 4. enjoy :-)
 
 The best way to learn something is to play with it.
 
 ## Screenshots
 
-![screenshot](https://github.com/ontheroadjp/Hugo-Landing-Page/raw/images/images/home01.png "screenshot")
+### Home page
+
+![screenshot](https://raw.githubusercontent.com/ontheroadjp/Hugo-Landing-Page/images/images/home02.png "screenshot")
+
+### single page
+
+![screenshot](https://raw.githubusercontent.com/ontheroadjp/Hugo-Landing-Page/images/images/single02.png "screenshot")
+
+### single page (with table of contents)
+
+![screenshot](https://raw.githubusercontent.com/ontheroadjp/Hugo-Landing-Page/images/images/single.png "screenshot")
