@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ partial "hero_header.html" . }}
+
+<!-- Page content -->
+{{if not .IsHome }}
+{{ end }}
+
+{{ .Content }}
+
+{{if not .IsHome }}
+<div style="padding: 30px; margin-left: 50px; line-height: 3rem;">
+    <ul>
+    	{{ range (where .Data.Pages "Section" "!=" "") }}
+        	<li>
+        		<span class="date">
+                    {{ .Date.Format "2006/01/02" }}
+                </span><a href="{{ .URL }}">
+                    {{ .Title | markdownify }}
+                </a>
+        	</li>
+
+        	<!-- prettier-ignore -->
+    	{{ end }}
+    </ul>
+</div>
+{{ end }}
+
+{{ end }}
